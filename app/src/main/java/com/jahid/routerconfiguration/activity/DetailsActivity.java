@@ -1,12 +1,10 @@
 package com.jahid.routerconfiguration.activity;
 
-import android.content.Intent;
-import android.os.Build;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.CookieManager;
-import android.webkit.CookieSyncManager;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -14,10 +12,6 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
 import com.jahid.routerconfiguration.R;
-
-import java.util.HashMap;
-import java.util.Map;
-
 
 public class DetailsActivity extends AppCompatActivity {
 
